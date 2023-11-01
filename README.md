@@ -15,10 +15,10 @@ This repository is mainly for personal use and is not guaranteed to work in any 
 
 1. Theorems, lemmas and other environments are defined using the `amsthm` package. Some of them are naturally supported by `cleveref`.
 2. For proofs, one can customize the heading text:
-  ```latex
-\begin{proof}[Proof of Theorem 1]
-  Theorem 1 is true because
-  \[ 1+1=2. \qedhere \]
-\end{proof}
-  ```
+   ```latex
+   \begin{proof}[Proof of Theorem 1]
+     Theorem 1 is true because
+     \[ 1+1=2. \qedhere \]
+   \end{proof}
+   ```
 3. `\qedhere` when a proof ends with a formula. See the above example.
