@@ -5,21 +5,21 @@
 %   This file may be freely distributed but may not be altered in any way.
 %   Any comments or questions regarding these macros should be directed to:
 
-%                 Donna Witzleben
+%                 Rachel Ginder
 %                 SIAM
 %                 3600 University City Science Center
 %                 Philadelphia, PA 19104-2688
 %                 USA
 %                 Telephone: (215) 382-9800
 %                 Fax: (215) 386-7999
-%                 e-mail: witzleben@siam.org
+%                 e-mail: rginder@siam.org
 
 
 %   Report the version.
 \usepackage{fancyhdr}
 
-\message{*** ACM/SIAM LaTeX2E Preprint Series macro package, version 1.2,
-March 18, 2019 ***}
+\message{*** ACM/SIAM LaTeX2E Preprint Series macro package, version 1.2.1,
+November 27, 2023 ***}
 
 
 \pretolerance=800
@@ -59,11 +59,14 @@ March 18, 2019 ***}
 
 \let\referencesize\footnotesize
 
-\footnotesep 0pt
+%\footnotesep 0pt
 
 \skip\footins 12pt plus 12pt
 
-\def\footnoterule{\kern3\p@  \hrule width 3em} % the \hrule is .4pt high
+%\def\footnoterule{\kern3\p@  \hrule width 3em} % the \hrule is .4pt high
+
+\def\footnoterule{\kern3\p@
+    \hrule width 3em\kern11\p@\kern-\footnotesep}
 
 \def\ps@plain{\let\@mkboth\@gobbletwo
      \def\@oddfoot{{\hfil\small\thepage\hfil}}%
