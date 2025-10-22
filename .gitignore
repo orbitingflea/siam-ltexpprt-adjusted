@@ -1,0 +1,15 @@
+auto
+*.aux
+*.log
+*.pdf
+*.prv
+*.gz
+*.bbl
+*.blg
+*.upa
+*.upb
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz.sum.synctex
+*.synctex(busy)
